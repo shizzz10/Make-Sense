@@ -427,12 +427,13 @@ h3{
  }
  
 .navbar{
-    justify-content: left;
-    padding:  0px 40px;
+    display: flex;
+    justify-content: center;
+    padding:  8px 10px;
 }
 
 .gif {
-    height: 80% ;
+    height: 70% ;
 }
 
 .heading{
@@ -456,8 +457,13 @@ h2{
 }
 
 .container{
-    width: 175px;
-margin: 3px 20px;
+    width: 150px;
+margin: 3px 5px;
+}
+
+.flex-image{
+    margin-top: 20px;
+    width: 95%;
 }
 h3{
 
@@ -471,12 +477,12 @@ h3{
     
  
 .twodivs{
-    margin: 0px 10px;
-    display: block;
+    margin: 0px 2px;
+    display: flex;
    }
       
   .divs{
-    margin: 50px 20px;
+    margin: 50px 10px;
     width: 150px;
     text-align: left;
   }
@@ -486,13 +492,15 @@ h3{
 }  
 .imgdiv{
     margin: 20px 10px;
+
 }
 .twodivsimg{
-    height:200px;
+    height:150px;
+    margin-top: 150px;
 }
 .locinclude{
-    margin: 10px 30px;
-    width: 200px;
+    margin: 5px 30px;
+    width: 250px;
 }
 .locincludeimg {
     height: 150px;
