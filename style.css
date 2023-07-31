@@ -1,0 +1,534 @@
+/* removing defauld padding and margin */
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    margin: 0%;
+    
+    font-family: 'Caveat', cursive;
+    font-family: 'Cinzel', serif;
+    font-family: 'Ysabeau Infant', sans-serif;
+}
+.main{
+    width: 100%;
+}
+
+.logo{
+    padding-top: 6px;
+ }
+
+
+ /* using flex value for responiveness 
+ using wrap value to wrap content when its near to overflow */
+
+.navbar{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* to be fixed while scrolling down to */
+    position: fixed;
+    width: 100%;
+    background-color : white;
+    padding:  10px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 1px solid black;
+}
+
+
+.navs{
+    
+     display: flex; 
+    text-align: right;
+    float: right;
+    padding: 10px;
+    
+    margin-left: 150px;
+    color: darkgoldenrod;
+    font-size: 25px;
+    /* to cut the underline from anchor tag */
+    text-decoration: none;
+}
+.navs:hover{
+    color: #584417;
+    text-decoration: underline;
+}
+
+.gif {
+    
+    display: flex;
+    width: 100% ;
+    height: 70%;
+}
+
+h1{
+    margin-top: 20px;
+    font-size: 50px;
+    text-align: center;
+     color: #a87916 ;
+     text-align: center;
+}
+.heading{
+    margin: 10px 80px ;
+    
+}
+.discription{
+    
+    display: flex;
+    padding-top: 25px;
+    text-align: center;
+    justify-content: center;
+    font-size: 14px;
+    color: rgb(104, 89, 89);
+    margin: 40px 80px ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2{
+    
+    font-size: 40px;
+     color: #a87916 ;
+     text-align: center;
+     margin: 80px 10px 40px 10px;
+}
+.containers{
+    display: flex;
+    
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 20px 40px;
+    height: 100%; 
+    width: 250px;
+    border: 2px solid rgb(54, 53, 53);
+    box-shadow: 3px 3px 2px rgb(122, 118, 118);
+}
+h3{
+
+    font-size: 25px;
+    color: #a87916 ;
+    text-align: center;
+}
+.flex-image{
+    margin-top: 20px;
+}
+
+.peradiscrip{
+    text-align: center;
+    margin: 5px 40px;
+    color: rgb(104, 89, 89);
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.twodivs{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px 50px;
+}
+.divs{
+    
+    margin: 50px 100px;
+    display: flex;
+    text-align: center;
+    height: 100%;
+    width: 300px;
+}
+.twodivsdisc{
+    
+    color: rgb(104, 89, 89);
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.imgdiv{
+    margin-right: 200px;
+    margin: 150px 100px;
+    display: flex;  
+    text-align: center; 
+}
+.twodivsimg{
+    height: 300px;
+}
+.locincludes{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 10px 50px;
+}
+.locinclude{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 30px 80px;
+    padding: 10px;
+    width: 300px;
+}
+.peralocin{
+    color: rgb(104, 89, 89);
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    justify-content: center;
+    text-align: center;
+}
+.link{
+    text-decoration: none;
+    margin: 50px 10px;
+}
+.linkh:hover{
+    color: #4b3910;
+    text-decoration: underline;
+}
+
+.reachthroughways{
+    display: flex;
+    gap: 10px;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-top: 0.5px solid rgba(87, 84, 84, 0.178);
+}
+.reachthrough{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    margin: 20px 40px;
+    height: 100%; 
+    width: 300px;
+    padding: 10px 50px;
+}
+.reachthroughimg{
+    height: 200px;
+}
+  /* using div for smooth transition in responsivness */
+.reachthrough img{
+
+    transition: ease-out 0.5s ;
+}
+.reachthrough:hover img{
+    transform: scale(1.2);
+}
+
+
+.social-icon{
+    
+    color: rgb(104, 89, 89);
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 20px;
+    text-align: left;
+}
+
+.linkheading{
+    font-size: 20px;
+    text-align: center;
+}
+.linkicon{
+    text-align: left;
+    text-decoration: none;
+}
+.linkicon:hover{
+    text-transform: capitalize;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+
+
+.footer-container{
+    width: 100%;
+}
+.footer{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 0.5px solid rgba(94, 89, 89, 0.418);
+    font-size: 35px;
+    text-align: center;
+    height: 80px;
+    color: rgb(104, 89, 89);
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+               
+
+
+           /* Responsivness */
+@media screen and (max-width: 925px) and  (max-width: 1200px) {
+
+.gif {
+    width: 100% ;
+    height: 90% ;
+}
+
+.locincludes{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    
+    justify-content: center;
+    margin: 10px 20px;
+    
+    gap: 20%;
+}
+
+.locinclude{
+    display: flex;
+    text-align: center;
+    margin: 20px 20px;
+    padding: 50px;
+    width: 150px;
+}
+.locincludeimg{
+    height: 200px;
+}
+.locincludeimgwidth{
+    width: 300px;
+    height: 200px;
+}
+.peralocin{
+    color: rgb(104, 89, 89);
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+}
+
+@media screen and (min-width: 725px) and  (max-width: 925px) {
+    
+    .navs{
+        
+        padding: 20px;
+        margin-left: 50px;
+        font-size: 15px;
+    }
+    .gif {
+        width: 100% ;
+        height: 70% ;
+    }
+    h1{
+       margin-top: 10px;
+      font-size: 40px;
+    }
+    .heading{
+        margin: 10px 40px;
+    }
+    .discription{
+        margin: 20px 40px ;
+    font-size: 14px;
+    padding-top: 5px;
+    }
+    h2{
+        font-size: 30px;
+     margin: 30px 10px 30px 10px;
+    }
+    
+    .container{
+        width: 200px;
+    margin: 10px 20px;
+    }
+    h3{
+
+        font-size: 20px;
+    }
+     
+   .peradiscrip{
+    margin: 3px 20px;
+    font-size: 13px;
+}
+
+ .twodivs{
+    margin: 10px 20px;
+   }
+   
+  .divs{
+    
+    margin: 20px 30px;
+    width: 180px;
+    text-align: left;
+  }
+  
+.twodivsdisc{
+    font-size: 13px;
+}
+   
+.imgdiv{
+    margin: 130px 50px;
+}
+.locinclude{
+    margin: 10px 10px;
+    padding: 10px;
+    width: 150px;
+}
+.locincludeimg {
+    height: 150px;
+}
+.peralocin {
+    font-size: 10px;
+}
+.locincludeimgwidth{
+
+    width: 300px;
+}
+
+.reachthroughways{
+    margin: 0px;
+    gap: 3%;
+    text-align: left;
+    justify-content: center;
+}
+
+.reachthrough{
+    margin: 10px 20px;
+    
+    width: 250px;
+    padding: 10px 10px;
+}
+.reachthroughimg{
+    height: 150px;
+}
+  
+.linkheading{
+    font-size: 18px;
+}
+.social-icon{
+    font-size: 12px;
+    margin-left: 0px;
+}
+}
+
+
+
+@media only screen and (max-width: 725px) {
+
+
+  .navs{
+    
+   padding: 10px;
+   margin: 5px;
+   font-size: 18px;
+}
+
+.logo{
+    padding-top: 6px 0px;
+ }
+ 
+.navbar{
+    justify-content: left;
+    padding:  0px 40px;
+}
+
+.gif {
+    height: 80% ;
+}
+
+.heading{
+    margin: 5px 20px;
+}
+
+h1{
+    margin-top: 5px;
+   font-size: 35px;
+ }
+ 
+.discription{
+    margin: 10px 20px ;
+font-size: 12px;
+padding-top: 4px;
+}
+
+h2{
+    font-size: 25px;
+ margin: 10px;
+}
+
+.container{
+    width: 175px;
+margin: 3px 20px;
+}
+h3{
+
+    font-size: 18px;
+}
+
+.peradiscrip{
+    margin: 3px 20px;
+    font-size: 11px;
+    }
+    
+ 
+.twodivs{
+    margin: 0px 10px;
+    display: block;
+   }
+      
+  .divs{
+    margin: 50px 20px;
+    width: 150px;
+    text-align: left;
+  }
+  
+.twodivsdisc{
+    font-size: 12px;
+}  
+.imgdiv{
+    margin: 20px 10px;
+}
+.twodivsimg{
+    height:200px;
+}
+.locinclude{
+    margin: 10px 30px;
+    width: 200px;
+}
+.locincludeimg {
+    height: 150px;
+}
+.peralocin {
+    font-size: 10px;
+}
+.locincludeimgwidth{
+
+    width: 300px;
+}
+
+.reachthroughways{
+    margin: 0px;
+    gap: 20%;
+    text-align: left;
+    justify-content: center;
+}
+
+.reachthrough{
+    margin: 10px 20px;
+    
+    width: 250px;
+    padding: 10px 10px;
+}
+
+
+.reachthroughimg{
+    height: 200px;
+}
+.linkheading{
+    font-size: 18px;
+}
+ 
+.social-icon{
+    font-size: 12px;
+    margin-left: 20px;
+}
+}
