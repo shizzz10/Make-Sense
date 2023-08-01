@@ -540,3 +540,133 @@ h3{
     margin-left: 20px;
 }
 }
+
+@media only screen and (max-width: 375px) {
+
+
+    .navs{
+      
+     padding: 15px 5px;
+     font-size: 14px;
+  }
+  
+  .logo{
+      padding-top: 6px 0px;
+   }
+   
+  .navbar{
+      display: flex;
+      justify-content: center;
+      padding:  8px 10px;
+      box-sizing: border-box;
+      width: 100vw;
+  }
+  
+  .gif {
+      height: 70% ;
+  }
+  
+  .heading{
+      margin: 5px 20px;
+  }
+  
+  h1{
+      margin-top: 5px;
+     font-size: 35px;
+   }
+   
+  .discription{
+      margin: 10px 20px ;
+  font-size: 12px;
+  padding-top: 4px;
+  }
+  
+  h2{
+      font-size: 25px;
+   margin: 10px;
+  }
+  
+  .container{
+      width: 150px;
+  margin: 3px 5px;
+  }
+  
+  .flex-image{
+      margin-top: 20px;
+      width: 95%;
+  }
+  h3{
+  
+      font-size: 18px;
+  }
+  
+  .peradiscrip{
+      margin: 3px 20px;
+      font-size: 11px;
+      }
+      
+   
+  .twodivs{
+      margin: 0px 2px;
+      display: flex;
+      justify-content: center;
+     }
+        
+    .divs{
+      margin: 50px 10px;
+      width: 100px;
+      text-align: left;
+    }
+    
+  .twodivsdisc{
+      font-size: 12px;
+  }  
+  .imgdiv{
+      margin: 20px 10px;
+  
+  }
+  .twodivsimg{
+      height:120px;
+      margin-top: 200px;
+  }
+  .locinclude{
+      margin: 5px 30px;
+      width: 250px;
+  }
+  .locincludeimg {
+      height: 150px;
+  }
+  .peralocin {
+      font-size: 10px;
+  }
+  .locincludeimgwidth{
+  
+      width: 280px;
+  }
+  
+  .reachthroughways{
+      margin: 0px;
+      gap: 20%;
+      text-align: left;
+      justify-content: center;
+  }
+  
+  .reachthrough{
+      margin: 10px 20px;
+      padding: 10px 10px;
+  }
+  
+  
+  .reachthroughimg{
+      height: 130px;
+  }
+  .linkheading{
+      font-size: 18px;
+  }
+   
+  .social-icon{
+      font-size: 12px;
+      margin-left: 20px;
+  }
+  }
+  
